@@ -15,4 +15,5 @@
 
 hello <- function() {
   head(mtcars)
+  print(mtcars)
 }
