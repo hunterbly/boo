@@ -13,9 +13,9 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
-hello <- function() {
-  head(mtcars)
-  print(mtcars)
+hello <- function(n = 6) {
+  head(mtcars, n)
+
 }
 
 test <- hello()
