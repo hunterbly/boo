@@ -17,3 +17,5 @@ hello <- function() {
   head(mtcars)
   print(mtcars)
 }
+
+test <- hello()
