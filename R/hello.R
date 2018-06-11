@@ -13,6 +13,8 @@
 #   Check Package:             'Ctrl + Shift + E'
 #   Test Package:              'Ctrl + Shift + T'
 
+# test v1.1
+
 hello <- function(n = 6) {
   head(mtcars, n)
 
